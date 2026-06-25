@@ -1,0 +1,21 @@
+{
+  "model_type": "BiLSTM",
+  "max_words": 15000,
+  "max_len": 80,
+  "label_to_id": {
+    "bearish": 0,
+    "neutral": 1,
+    "bullish": 2
+  },
+  "id_to_label": {
+    "0": "bearish",
+    "1": "neutral",
+    "2": "bullish"
+  },
+  "datasets": [
+    "lmassaron/FinancialPhraseBank",
+    "TheFinAI/fiqa-sentiment-classification"
+  ],
+  "fiqa_positive_threshold": 0.15,
+  "fiqa_negative_threshold": -0.15
+}

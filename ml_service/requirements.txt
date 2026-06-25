@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+tensorflow
+yfinance
+scikit-learn
+joblib
+pandas
+numpy
+transformers
+peft
+torch
+bitsandbytes
+accelerate
+python-dotenv
+dill
